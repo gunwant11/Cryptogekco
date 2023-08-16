@@ -33,6 +33,7 @@ const Coin = (props) => {
           ? "border-grey-200 hover:bg-grey-100"
           : "hover:bg-[#001e3c] border-blue-grey-600"
       }`}
+      onClick={coinDetailHandler}
     >
       <td className="pl-2 py-6 font-medium text-sm">{props.num}</td>
       <td>
